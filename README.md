@@ -34,7 +34,13 @@ drf-tracking provides a Django model and DRF view mixin that work together to lo
 Install using `pip`...
 
 ```bash
-$ pip install drf-tracking
+$ pip install -e git+https://github.com/pregiotek/drf-tracking.git@master#egg=drf-tracking
+```
+
+or add to your `requirements.txt`:
+
+```
+-e git+https://github.com/pregiotek/drf-tracking.git@master#egg=drf-tracking
 ```
 
 Register with your Django project by adding `rest_framework_tracking`
