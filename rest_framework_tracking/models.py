@@ -1,6 +1,6 @@
 from django.db import models
 from django.conf import settings
-from rest_framework_tracking.managers import PrefetchUserManager
+from .managers import PrefetchUserManager
 
 
 class BaseAPIRequestLog(models.Model):
