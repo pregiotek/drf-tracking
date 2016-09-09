@@ -4,6 +4,8 @@
 [![pypi-version]][pypi]
 [![Requirements Status](https://requires.io/github/aschn/drf-tracking/requirements.svg?branch=master)](https://requires.io/github/aschn/drf-tracking/requirements/?branch=master)
 
+This fork adds the support to MySQL
+
 ## Overview
 
 drf-tracking provides a Django model and DRF view mixin that work together to log Django Rest Framework requests to the database. You'll get these attributes for every request/response cycle to a view that uses the mixin:
